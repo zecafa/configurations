@@ -169,3 +169,6 @@ execute pathogen#infect()
 
 " Paste
 set pastetoggle=<F3>
+
+" CtrlP
+let g:ctrlp_working_path_mode = 0
