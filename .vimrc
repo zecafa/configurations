@@ -172,3 +172,11 @@ set pastetoggle=<F3>
 
 " CtrlP
 let g:ctrlp_working_path_mode = 0
+
+" Split
+au VimEnter * vsplit
+
+" EasyGrep
+let g:EasyGrepRecursive = 1
+let g:EasyGrepCommand = 1
+let g:EasyGrepFilesToExclude = ".git,node_modules,bower_components"
