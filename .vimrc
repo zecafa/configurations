@@ -1,4 +1,3 @@
-
 " vim-sublime - A minimal Sublime Text -like vim experience bundle
 "               http://github.com/grigio/vim-sublime
 " Best view with a 256 color terminal and Powerline fonts
@@ -152,6 +151,7 @@ nnoremap <C-t>  :tabnew<CR>
 inoremap <C-t>  <Esc>:tabnew<CR>i
 nnoremap <C-k>  :tabclose<CR>
 inoremap <C-k>  <Esc>:tabclose<CR>i
+nnoremap <TAB> :bnext<CR>
 
 " lazy ':'
 map \ :
@@ -167,4 +167,5 @@ if filereadable(expand("~/.vimrc.local"))
 endif
 execute pathogen#infect()
 
-
+" Paste
+set pastetoggle=<F3>
