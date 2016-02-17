@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AlignTab",
+		"All Autocomplete",
+		"AngularJS",
+		"Babel",
+		"CodeFormatter",
+		"Color Highlighter",
+		"CSS Extended Completions",
+		"CSS Snippets",
+		"DocBlockr",
+		"EditorConfig",
+		"FixMyJS",
+		"HTMLBeautify",
+		"Jasmine JS",
+		"JavaScriptNext - ES6 Syntax",
+		"JSX",
+		"Markdown Preview",
+		"Package Control",
+		"ReactJS",
+		"Tag",
+		"Terminal"
+	]
+}
