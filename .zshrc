@@ -1,6 +1,6 @@
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/zeca/.oh-my-zsh
+export ZSH=/Users/josecarlos.fernandez/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -56,9 +56,9 @@ plugins=(git battery cp bower npm grunt ssh-agent)
 export PATH="~/.npm-packages/bin:~/.npm-packages/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/zeca/Android/Sdk/tools/"
 # export MANPATH="/usr/local/man:$MANPATH"
 
-export ANDROID_HOME=/home/zeca/Android/Sdk/ 
+export ANDROID_HOME=/home/zeca/Android/Sdk/
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -86,6 +86,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.npm-packages/bin:$PATH"
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-export NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript:/home/zeca/.npm-packages/lib/node_modules:/home/zeca/.npm-packages/lib/node_modules
+export NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript:/home/zeca/.npm-packages/lib/node_modules:/Users/josecarlos.fernandez/.npm-packages/lib/node_modules

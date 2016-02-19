@@ -1,10 +1,6 @@
-" vim-sublime - A minimal Sublime Text -like vim experience bundle
-"               http://github.com/grigio/vim-sublime
-" Best view with a 256 color terminal and Powerline fonts
-
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/vundle.vim
 call vundle#rc()
 Bundle 'gmarik/vundle'
 
@@ -165,7 +161,7 @@ noremap  <Leader>g :GitGutterToggle<CR>
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
-execute pathogen#infect()
+" execute pathogen#infect()
 
 " Paste
 set pastetoggle=<F3>
@@ -180,3 +176,13 @@ au VimEnter * vsplit
 let g:EasyGrepRecursive = 1
 let g:EasyGrepCommand = 1
 let g:EasyGrepFilesToExclude = ".git,node_modules,bower_components"
+
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
